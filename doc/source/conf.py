@@ -17,12 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Sphinx testing'
+project = 'Hello World'
 copyright = '2019, Herbert D. Ludowieg'
 author = 'Herbert D. Ludowieg'
-
-# The full version, including alpha/beta/rc tags
-release = '1.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -44,7 +41,6 @@ extensions = [
     'IPython.sphinxext.ipython_console_highlighting',    # see https://github.com/spatialaudio/nbsphinx/issues/24
     "nbsphinx"                                           # ipynb autodocs
 ]
-
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
