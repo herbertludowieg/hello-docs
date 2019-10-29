@@ -9,9 +9,6 @@ Welcome to Sphinx testing's documentation!
 .. toctree::
     :maxdepth: 2
     :caption: Contents:
-    
-    hello
-    modules
 
 Indices and tables
 ==================
