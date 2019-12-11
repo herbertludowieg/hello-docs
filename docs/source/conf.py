@@ -2,7 +2,7 @@
 #
 # This file only contains a selection of the most common options. For a full
 # list see the documentation:
-# http://www.sphinx-doc.org/en/master/config
+# https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 # -- Path setup --------------------------------------------------------------
 
@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Hello World'
-copyright = '2019, Herbert D. Ludowieg'
-author = 'Herbert D. Ludowieg'
+project = 'Hello docs'
+copyright = '2019, Someone'
+author = 'Someone'
 
 
 # -- General configuration ---------------------------------------------------
@@ -28,18 +28,6 @@ author = 'Herbert D. Ludowieg'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "sphinx.ext.autodoc",
-    "sphinx.ext.doctest",
-    "sphinx.ext.autosummary",
-    "sphinx.ext.intersphinx",
-    "sphinx.ext.todo",
-    "sphinx.ext.coverage",
-    "sphinx.ext.mathjax",
-    "sphinx.ext.ifconfig",
-    "sphinx.ext.viewcode",
-    "sphinx.ext.napoleon",
-    'IPython.sphinxext.ipython_console_highlighting',    # see https://github.com/spatialaudio/nbsphinx/issues/24
-    "nbsphinx"                                           # ipynb autodocs
 ]
 
 # Add any paths that contain templates here, relative to this directory.
